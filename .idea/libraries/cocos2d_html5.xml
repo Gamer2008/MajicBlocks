@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="cocos2d-html5" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://D:/Work/cocos/cocos2d-js-v3.0/frameworks/cocos2d-html5" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://D:/Work/cocos/cocos2d-js-v3.0/frameworks/cocos2d-html5" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

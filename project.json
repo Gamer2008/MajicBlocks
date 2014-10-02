@@ -1,0 +1,23 @@
+{
+  "project_type": "javascript",
+  "debugMode": 1,
+  "showFPS": false,
+  "frameRate": 60,
+  "id": "gameCanvas",
+  "renderMode": 2,
+  "engineDir": "frameworks/cocos2d-html5",
+  "modules": [
+    "cocos2d","ccui","extensions"
+  ],
+  "jsList": [
+      "src/resource.js",
+      "src/GlobalFunction.js",
+      "src/GameInfo.js",
+      "src/StartScene.js",
+      "src/LevelSelectScene.js",
+      "src/LevelSelectLayer.js",
+      "src/LevelSelectItem.js",
+      "src/UserInfo.js"
+
+  ]
+}
