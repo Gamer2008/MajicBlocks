@@ -5,9 +5,11 @@
 var UserInfo = cc.Class.extend({
     _levelStars:[],
 
-    currentLevelIndex:0,
+    _currentLevelIndex:0,
 
     loadInfo:function(){
+
+        cc.log(jsb.fileUtils.getWritablePath());
         var str = cc.sys.localStorage.getItem("info");
         if(str == null || str == undefined || str == ""){
             this._levelStars.push(0);
@@ -22,6 +24,15 @@ var UserInfo = cc.Class.extend({
         }
     },
 
+    getCurrentLevelIndex:function(){
+        return this._currentLevelIndex;
+    },
+    setCurrentLevelIndex:function(index){
+        this._currentLevelIndex = index;
+        if(this._levelStars[this._currentLevelIndex] == -1){
+            this._levelStars[this._currentLevelIndex] = 0;
+        }
+    },
     /**
      * 获取关卡星级
      * @param {Number} levelIndex

@@ -46,9 +46,6 @@ var LevelSelectLayer= cc.Layer.extend({
 
         this._currentPage = 0;
         this.initLevelWithInfo(this._currentPage);
-
-
-
 	},
 
     initLevelWithInfo:function(page){
@@ -84,8 +81,6 @@ var LevelSelectLayer= cc.Layer.extend({
                     this._paneLevel.addChild(item);
                     item.setPosition(cc.p(x,y));
                     this._listItem.push(item);
-
-                    UserInfo.getCurrentUser().setLevelStar(leveIndex,2);
                 }
                 else{
                     if(leveIndex >= this._totalLevelNum){
@@ -120,6 +115,8 @@ var LevelSelectLayer= cc.Layer.extend({
 	},
 	onBtnBackHomeEvent : function(sender, type){
 		if(type == ccui.Widget.TOUCH_ENDED){
+            var tran = new cc.TransitionFade(1.2, new StartScene());
+            cc.director.runScene(tran);
 		}
 	}
 });

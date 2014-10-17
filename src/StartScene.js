@@ -31,7 +31,8 @@ var StartLayer= cc.Layer.extend({
     },
     onBtnStartEvent : function(sender, type){
         if(type == ccui.Widget.TOUCH_ENDED){
-            cc.director.runScene(new LevelSelectScene());
+            var tran = new cc.TransitionFade(1.2, new LevelSelectScene());
+            cc.director.runScene(tran);
         }
     },
     onMusicEvent : function(sender, type){

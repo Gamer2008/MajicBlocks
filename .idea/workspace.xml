@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b62dde1a-b02a-4cae-a7b4-9a85e01703b6" name="Default" comment="" />
+    <list default="true" readonly="true" id="b62dde1a-b02a-4cae-a7b4-9a85e01703b6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GameMainScene.js" afterPath="$PROJECT_DIR$/src/GameMainScene.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LevelSelectItem.js" afterPath="$PROJECT_DIR$/src/LevelSelectItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LevelSelectLayer.js" afterPath="$PROJECT_DIR$/src/LevelSelectLayer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/StartScene.js" afterPath="$PROJECT_DIR$/src/StartScene.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UserInfo.js" afterPath="$PROJECT_DIR$/src/UserInfo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/cocos2d_html5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/cocos2d_html5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.json" afterPath="$PROJECT_DIR$/project.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resource.js" afterPath="$PROJECT_DIR$/src/resource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="trunk.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,91 +35,94 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StartScene.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StartScene.js">
+      <file leaf-file-name="FieldContainer.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FieldContainer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="6" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1326">
+            <state line="408" column="31" selection-start="13092" selection-end="13092" vertical-scroll-proportion="0.46346155" vertical-offset="6695" max-vertical-offset="9027">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameInfo.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameInfo.js">
+      <file leaf-file-name="WinLayer.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WinLayer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="6" selection-start="847" selection-end="847" vertical-scroll-proportion="-8.16" vertical-offset="0" max-vertical-offset="4641">
+            <state line="66" column="47" selection-start="2393" selection-end="2428" vertical-scroll-proportion="0.0" vertical-offset="788" max-vertical-offset="1428">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LevelSelectLayer.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LevelSelectLayer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="0" selection-start="3743" selection-end="3743" vertical-scroll-proportion="-15.16" vertical-offset="1355" max-vertical-offset="2210">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserInfo.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="UserInfo.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UserInfo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="6" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1530">
+            <state line="27" column="38" selection-start="708" selection-end="726" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1717">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LevelSelectScene.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LevelSelectScene.js">
+      <file leaf-file-name="jsb_apis.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://E:/cocos2d/cocos2d-js-v3.0/frameworks/cocos2d-html5/jsb_apis.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="45" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+            <state line="46" column="0" selection-start="1900" selection-end="1914" vertical-scroll-proportion="0.0" vertical-offset="86" max-vertical-offset="10217">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LevelSelectItem.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LevelSelectItem.js">
+      <file leaf-file-name="FigureBlocks.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FigureBlocks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="44" selection-start="2475" selection-end="2475" vertical-scroll-proportion="0.0" vertical-offset="655" max-vertical-offset="1241">
+            <state line="271" column="33" selection-start="9690" selection-end="9702" vertical-scroll-proportion="-12.36" vertical-offset="4298" max-vertical-offset="5882">
+              <folding>
+                <marker date="1413559517096" expanded="true" signature="76:12477" placeholder="{...}" />
+                <marker date="1413559517096" expanded="true" signature="9548:11326" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CCActionInterval.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://E:/cocos2d/cocos2d-js-v3.0/frameworks/cocos2d-html5/cocos2d/actions/CCActionInterval.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1434" column="0" selection-start="44717" selection-end="44717" vertical-scroll-proportion="0.0" vertical-offset="24378" max-vertical-offset="60163">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UIImageView.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://D:/Work/cocos/cocos2d-js-v3.0/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UIImageView.js">
+      <file leaf-file-name="mainGame.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mainGame.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="4" selection-start="3377" selection-end="3377" vertical-scroll-proportion="0.0" vertical-offset="1067" max-vertical-offset="5355">
+            <state line="1053" column="4" selection-start="42274" selection-end="42274" vertical-scroll-proportion="0.0" vertical-offset="17720" max-vertical-offset="31365">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project.json">
+      <file leaf-file-name="CCActionManager.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://E:/cocos2d/cocos2d-js-v3.0/frameworks/cocos2d-html5/extensions/cocostudio/action/CCActionManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="32" selection-start="383" selection-end="383" vertical-scroll-proportion="-8.774194" vertical-offset="0" max-vertical-offset="476">
+            <state line="87" column="4" selection-start="3133" selection-end="3133" vertical-scroll-proportion="0.0" vertical-offset="802" max-vertical-offset="1360">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GlobalFunction.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../svn/Client/IceDemo/src/Config/GlobalFunction.js">
+      <file leaf-file-name="GameMainScene.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GameMainScene.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="219" column="26" selection-start="4570" selection-end="4570" vertical-scroll-proportion="0.0" vertical-offset="4913" max-vertical-offset="5695">
+            <state line="211" column="59" selection-start="6957" selection-end="6966" vertical-scroll-proportion="-12.92" vertical-offset="3264" max-vertical-offset="4165">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GlobalFunction.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GlobalFunction.js">
+      <file leaf-file-name="GameManager.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GameManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="883" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="833">
+            <state line="18" column="22" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2006">
               <folding />
             </state>
           </provider>
@@ -123,28 +138,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/GameMainScene.js" />
-        <option value="$PROJECT_DIR$/main.js" />
-        <option value="$PROJECT_DIR$/src/PublicFunction.js" />
-        <option value="$PROJECT_DIR$/src/LevelSelectItemLayer.js" />
-        <option value="$PROJECT_DIR$/src/resource.js" />
-        <option value="$PROJECT_DIR$/src/LevelSelectScene.js" />
-        <option value="$USER_HOME$/Desktop/tt/LevelSelectLayer.js" />
-        <option value="$PROJECT_DIR$/src/GlobalFunction.js" />
         <option value="$PROJECT_DIR$/src/GameInfo.js" />
-        <option value="$PROJECT_DIR$/src/StartScene.js" />
-        <option value="$PROJECT_DIR$/project.json" />
+        <option value="$PROJECT_DIR$/src/GameManager.js" />
+        <option value="$PROJECT_DIR$/src/MusicManager.js" />
         <option value="$PROJECT_DIR$/src/LevelSelectItem.js" />
+        <option value="$PROJECT_DIR$/src/resource.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/WinLayer.js" />
+        <option value="E:/cocos2d/Cocos2d-html5-v2.2.1/Cocos2d-html5-v2.2.1/samples/games/MyGame/cocos2d.js" />
+        <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/src/StartScene.js" />
         <option value="$PROJECT_DIR$/src/LevelSelectLayer.js" />
+        <option value="$PROJECT_DIR$/project.json" />
+        <option value="$PROJECT_DIR$/src/FigureBlocks.js" />
+        <option value="$PROJECT_DIR$/src/GameMainScene.js" />
         <option value="$PROJECT_DIR$/src/UserInfo.js" />
+        <option value="$PROJECT_DIR$/src/FieldContainer.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -153,7 +170,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -172,7 +189,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -191,29 +207,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trunk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trunk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="JavaScript.Libraries" />
-    <property name="last_opened_file_path" value="D:/Work/cocos/cocos2d-js-v3.0/frameworks/cocos2d-html5" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
@@ -222,7 +228,12 @@
       <recent name="E:\work\MajicBlocks\trunk\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" engineId="firefox" uri="http://localhost:63342/trunk/index.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -252,7 +263,14 @@
       <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true" SSL_PROTOCOLS="all">
@@ -272,6 +290,25 @@
     <option name="IGNORE_EXTERNALS" value="false" />
     <configuration useDefault="false">C:\Users\jopi\AppData\Roaming\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\MyGame\MajicBlocks\trunk" />
+          <option name="myCopyRoot" value="F:\MyGame\MajicBlocks\trunk" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="F:\MyGame\MajicBlocks\trunk" />
+          <option name="myCopyRoot" value="F:\MyGame\MajicBlocks\trunk" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -282,26 +319,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32998884" sideWeight="0.49973643" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24986821" sideWeight="0.67001116" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32998884" sideWeight="0.5002636" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24861111" sideWeight="0.82138026" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17861976" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17861976" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34912044" sideWeight="0.49930555" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -316,114 +353,115 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/tt/StartLayer.js">
+    <entry file="file://$PROJECT_DIR$/src/MusicManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="1" selection-end="1309" vertical-scroll-proportion="0.029616725" vertical-offset="0" max-vertical-offset="816">
+        <state line="14" column="21" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="23" selection-start="37" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1122">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainGame.js">
+    <entry file="file://E:/cocos2d/cocos2d-js-v3.0/frameworks/cocos2d-html5/lib/cocos2d-js-v3.0-min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1674" column="18" selection-start="69829" selection-end="69834" vertical-scroll-proportion="0.0" vertical-offset="28060" max-vertical-offset="31365">
+        <state line="2392" column="532" selection-start="1215552" selection-end="1215552" vertical-scroll-proportion="0.33333334" vertical-offset="40540" max-vertical-offset="46699">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Work/cocos/cocos2d-js-v3.0/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UICheckBox.js">
+    <entry file="file://E:/cocos2d/cocos2d-js-v3.0/frameworks/cocos2d-html5/extensions/cocostudio/armature/utils/CCTweenFunction.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="451" column="29" selection-start="17411" selection-end="17427" vertical-scroll-proportion="0.0" vertical-offset="7068" max-vertical-offset="11934">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resource.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/tt/LevelSelectLayer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="20" selection-start="420" selection-end="420" vertical-scroll-proportion="0.33876812" vertical-offset="51" max-vertical-offset="2907">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Work/cocos/cocos2d-js-v3.0/frameworks/cocos2d-html5/extensions/ccui/base-classes/UIWidget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="896" column="4" selection-start="32980" selection-end="32980" vertical-scroll-proportion="0.77700347" vertical-offset="14395" max-vertical-offset="29376">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Work/cocos/cocos2d-js-v3.0/frameworks/cocos2d-html5/extensions/ccui/uiwidgets/UIImageView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="4" selection-start="3377" selection-end="3377" vertical-scroll-proportion="0.0" vertical-offset="1067" max-vertical-offset="5355">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../svn/Client/IceDemo/src/Config/GlobalFunction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="219" column="26" selection-start="4570" selection-end="4570" vertical-scroll-proportion="0.0" vertical-offset="3383" max-vertical-offset="5695">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GlobalFunction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="883" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="833">
+        <state line="278" column="2" selection-start="7916" selection-end="7916" vertical-scroll-proportion="0.0" vertical-offset="4109" max-vertical-offset="8211">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="32" selection-start="383" selection-end="383" vertical-scroll-proportion="-8.774194" vertical-offset="0" max-vertical-offset="476">
+        <state line="19" column="27" selection-start="419" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LevelSelectScene.js">
+    <entry file="file://E:/cocos2d/cocos2d-js-v3.0/frameworks/cocos2d-html5/cocos2d/actions/CCActionEase.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="45" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+        <state line="2837" column="3" selection-start="75916" selection-end="75916" vertical-scroll-proportion="0.0" vertical-offset="48229" max-vertical-offset="62679">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LevelSelectItem.js">
+    <entry file="file://E:/cocos2d/cocos2d-js-v3.0/frameworks/cocos2d-html5/cocos2d/actions/CCActionInterval.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="44" selection-start="2475" selection-end="2475" vertical-scroll-proportion="0.0" vertical-offset="655" max-vertical-offset="1241">
+        <state line="1434" column="0" selection-start="44717" selection-end="44717" vertical-scroll-proportion="0.0" vertical-offset="23846" max-vertical-offset="59755">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StartScene.js">
+    <entry file="file://$PROJECT_DIR$/src/mainGame.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="6" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1326">
+        <state line="1053" column="4" selection-start="42274" selection-end="42274" vertical-scroll-proportion="0.0" vertical-offset="17720" max-vertical-offset="31365">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LevelSelectLayer.js">
+    <entry file="file://E:/cocos2d/cocos2d-js-v3.0/frameworks/cocos2d-html5/extensions/cocostudio/action/CCActionManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="0" selection-start="3743" selection-end="3743" vertical-scroll-proportion="-15.16" vertical-offset="1355" max-vertical-offset="2210">
+        <state line="87" column="4" selection-start="3133" selection-end="3133" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="1360">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GameInfo.js">
+    <entry file="file://$PROJECT_DIR$/src/GameManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="6" selection-start="847" selection-end="847" vertical-scroll-proportion="-8.16" vertical-offset="0" max-vertical-offset="4641">
+        <state line="18" column="22" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2006">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FigureBlocks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="271" column="33" selection-start="9690" selection-end="9702" vertical-scroll-proportion="-12.36" vertical-offset="4298" max-vertical-offset="5882">
+          <folding>
+            <marker date="1413559517096" expanded="true" signature="76:12477" placeholder="{...}" />
+            <marker date="1413559517096" expanded="true" signature="9548:11326" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameMainScene.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="211" column="59" selection-start="6957" selection-end="6966" vertical-scroll-proportion="-12.92" vertical-offset="3264" max-vertical-offset="4165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/cocos2d/cocos2d-js-v3.0/frameworks/cocos2d-html5/jsb_apis.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1900" selection-end="1914" vertical-scroll-proportion="0.0" vertical-offset="86" max-vertical-offset="10217">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UserInfo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="6" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1530">
+        <state line="27" column="38" selection-start="708" selection-end="726" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WinLayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="47" selection-start="2393" selection-end="2428" vertical-scroll-proportion="0.0" vertical-offset="788" max-vertical-offset="1428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FieldContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="408" column="31" selection-start="13092" selection-end="13092" vertical-scroll-proportion="0.46346155" vertical-offset="6695" max-vertical-offset="9027">
           <folding />
         </state>
       </provider>

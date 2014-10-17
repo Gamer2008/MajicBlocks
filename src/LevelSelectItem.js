@@ -60,9 +60,10 @@ var LevelSelectItem= cc.Layer.extend({
     },
 	onBtnItemEvent : function(sender, type){
 		if(type == ccui.Widget.TOUCH_ENDED){
-            UserInfo.getCurrentUser().currentLevelIndex = this._levelIndex;
+            UserInfo.getCurrentUser().setCurrentLevelIndex(this._levelIndex);
             var info = UserInfo.getCurrentUser().getLevelInfo(this._levelIndex);
             cc.log(info.tiles);
+            cc.director.runScene(new GameMainScene());
 		}
 	}
 });
