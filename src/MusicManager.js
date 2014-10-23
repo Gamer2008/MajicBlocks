@@ -3,14 +3,29 @@
  */
 
 var MusicManager = {};
+
 MusicManager.playConnect = function(){
-    cc.log("playConnect");
+    cc.audioEngine.playEffect(res.o_connect);
 };
 
 MusicManager.playStep = function(){
-    cc.log("playStep");
+    cc.audioEngine.playEffect(res.o_roatate);
 };
 
 MusicManager.playBg = function(){
-    cc.log("playBg");
+    cc.audioEngine.playMusic(res.o_mus, true);
+};
+MusicManager.stopBg = function(){
+    cc.audioEngine.stopMusic();
+}
+MusicManager.PlayWin = function(){
+    cc.audioEngine.playEffect(res.o_menu);
+};
+
+MusicManager.PlayClick = function(){
+    cc.audioEngine.playEffect(res.o_mouse1);
+};
+
+MusicManager.PlayStar = function(){
+    cc.audioEngine.playEffect(res.o_startUp);
 };

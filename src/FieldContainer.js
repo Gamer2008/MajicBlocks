@@ -36,7 +36,7 @@ var FieldContainer = cc.Layer.extend({
         this.fieldsSteps = [];
         this._arrayResult = [];
         this._currentStep = null;
-        this.batnNode = new cc.SpriteBatchNode(res.p_BlockGame_png);
+        this.batnNode = cc.Node.create();//new cc.SpriteBatchNode(res.p_BlockGame_png);
         this.addChild(this.batnNode);
         this.addSaveStep();
 
@@ -348,8 +348,10 @@ var FieldContainer = cc.Layer.extend({
             this.gameManager.addStep();
             //cc.log("*********getStepNum" + this.gameManager.getStep());
             this.addSaveStep();
+            if(!this.gameManager.beGetResult){
+                this._arrayResult.push(cc.p(toX,toY));
+            }
             this._currentStepType = StepType.Next;
-
         }
         else{
             if(this.gameManager.beGetResult){
@@ -445,12 +447,37 @@ var FieldContainer = cc.Layer.extend({
             if (numFigures[i] > 1)
                 return false;
 
+        //this.saveWinResult();
         this._beWin = true;
         this.gameManager.setGameOver();
-        cc.log("WIN!!!");
+       // cc.log("WIN!!!");
         this.gameManager.showWin();
+
         //dp_submitScore(-1, (this.gameManager.levelId + 1));
         return true
+    },
+
+    saveWinResult:function(){
+
+        var bAbleWrite = false;
+        this.logResult();
+        var formResult = cc.sys.localStorage.getItem("level" + this.gameManager.levelId);
+        if(formResult == "" || formResult == undefined) bAbleWrite = true;
+        else {
+            var resArray = JSON.parse(formResult);
+            if(resArray.length >= this._arrayResult.length) bAbleWrite = true;
+        }
+
+        if(bAbleWrite){
+            cc.log("Better Result");
+            var answer = [];
+            for(var index = 0 ; index <this._arrayResult.length;index++ ){
+                answer.push([this._arrayResult[index].x,this._arrayResult[index].y])
+            }
+            var str = JSON.stringify(answer);
+            cc.sys.localStorage.setItem("level" + this.gameManager.levelId ,str);
+            ccs.actionManager.releaseActions();
+        }
     },
     moveComplete:function () {
         this._numMove++;
@@ -512,13 +539,17 @@ var FieldContainer = cc.Layer.extend({
     },
 
     logResult:function(){
-        var  s = "";
+        var  s = "[";
         for(var index = 0 ; index < this._arrayResult.length;index ++)
         {
             s +=("[" + this._arrayResult[index].x + "," + this._arrayResult[index].y + "]");
+            if(index != this._arrayResult.length - 1){
+                s +=(",");
+            }
         }
-
-        cc.log(s);
+        s +="]";
+        //cc.log(s);
+        return s;
     },
     traceSteps:function() {
     }

@@ -34,7 +34,7 @@ var GameMainLayer = cc.Layer.extend({
     _winLayer:null,
     _stepNum : 0,
 
-    beGetResult:true,
+    beGetResult:false,
 
     ctor:function (){
         this._super();
@@ -187,12 +187,19 @@ var GameMainLayer = cc.Layer.extend({
         else if(this._stepNum <= this.numStarOne)  starNum = 1;
         else  starNum = 0;
 
+        if(starNum == 3){
+            var xhr = cc.loader.getXMLHttpRequest();
+            var url = "http://localhost:19242/Index.aspx?content=["+ (this.levelId + 1) + ","+ this.fieldContainer.logResult() + "]";
+            xhr.open("GET",url , true);
+            xhr.send();
+        }
         this._winLayer.showStar(starNum);
         UserInfo.getCurrentUser().setCurrentLevelIndex(this.levelId + 1);
         UserInfo.getCurrentUser().setLevelStar(this.levelId,starNum);
         UserInfo.getCurrentUser().saveUserInfo();
     },
     restart : function () {
+
         ccs.actionManager.releaseActions();
         UserInfo.getCurrentUser().setCurrentLevelIndex(this.levelId);
         var tran = new cc.TransitionFade(1.2, new GameMainScene());

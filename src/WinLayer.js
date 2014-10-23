@@ -37,20 +37,40 @@ var WinLayer= cc.Layer.extend({
         this._imgStar2 = GlobalFunction.getCocosWidget(root, "img_star2");
         this._imgStar3 = GlobalFunction.getCocosWidget(root, "img_star3");
 
+
     },
 
+    _starSoundNum:0,
     showStar:function(starNum){
+        MusicManager.PlayWin();
+        this._starSoundNum = 0;
         if(starNum < 3) this._imgStar3.loadTexture("starGameOver_mc_001.png",ccui.Widget.PLIST_TEXTURE);
         if(starNum < 2) this._imgStar2.loadTexture("starGameOver_mc_001.png",ccui.Widget.PLIST_TEXTURE);
         if(starNum < 1) this._imgStar1.loadTexture("starGameOver_mc_001.png",ccui.Widget.PLIST_TEXTURE);
         this.setVisible(true);
         ccs.actionManager.playActionByName("WinLayer.json","show");
 
+        this.scheduleOnce(this.playStarSound,0.5);
+        this.scheduleOnce(this.playStarSound1,1.2);
+        this.scheduleOnce(this.playStarSound2,1.9);
     },
+
+    playStarSound:function(){
+        MusicManager.PlayStar();
+    },
+    playStarSound1:function(){
+        MusicManager.PlayStar();
+    },
+    playStarSound2:function(){
+        MusicManager.PlayStar();
+    },
+
 
     onBtnReStartEvent : function(sender, type){
 
         if(type == ccui.Widget.TOUCH_ENDED){
+            MusicManager.PlayClick();
+            this.unscheduleAllCallbacks();
             ccs.actionManager.releaseActions();
             this._gameManage.restart();
         }
@@ -58,12 +78,16 @@ var WinLayer= cc.Layer.extend({
     onBtnBackEvent : function(sender, type){
 
         if(type == ccui.Widget.TOUCH_ENDED){
+            MusicManager.PlayClick();
             ccs.actionManager.releaseActions();
+            this.unscheduleAllCallbacks();
             this._gameManage.gotoLevelSelect();
         }
     },
     onBtnNextEvent : function(sender, type){
         if(type == ccui.Widget.TOUCH_ENDED){
+            MusicManager.PlayClick();
+            this.unscheduleAllCallbacks();
             ccs.actionManager.releaseActions();
             this._gameManage.goToNextLevel();
         }
@@ -73,6 +97,7 @@ var WinLayer= cc.Layer.extend({
     },
     onExit:function(){
         this._super();
+
         //ccs.actionManager.releaseActions();
 
     }

@@ -6,12 +6,14 @@ var UserInfo = cc.Class.extend({
     _levelStars:[],
 
     _currentLevelIndex:0,
+    _musicOn:false,
 
     loadInfo:function(){
 
         cc.log(jsb.fileUtils.getWritablePath());
         var str = cc.sys.localStorage.getItem("info");
         if(str == null || str == undefined || str == ""){
+            this._musicOn = true;
             this._levelStars.push(0);
             var levelNum = this.getTotalLevelNum();
             for(var index = 1 ; index < levelNum;index ++){
@@ -21,6 +23,7 @@ var UserInfo = cc.Class.extend({
         else{
             var result = JSON.parse(str);
             this._levelStars = result._levelStars;
+            this._musicOn = result._musicOn;
         }
     },
 
@@ -48,7 +51,10 @@ var UserInfo = cc.Class.extend({
      * @param {Number} starNum 星级
      */
     setLevelStar:function(levelIndex,starNum){
-        this._levelStars[levelIndex] = starNum;
+        if(this._levelStars[levelIndex] == undefined || this._levelStars[levelIndex] < starNum){
+            this._levelStars[levelIndex] = starNum;
+        }
+
     },
 
     /**
@@ -65,8 +71,6 @@ var UserInfo = cc.Class.extend({
      * @returns {*}
      */
     getLevelInfo:function(levelIndex){
-        cc.log(levelIndex);
-        cc.log(realLevelId[levelIndex] - 1);
         return blockLevels[realLevelId[levelIndex] - 1];
     },
 
@@ -76,8 +80,16 @@ var UserInfo = cc.Class.extend({
     saveUserInfo:function(){
         var info = new Object();
         info._levelStars = this._levelStars;
+        info._musicOn = this._musicOn;
         var str = JSON.stringify(info);
         cc.sys.localStorage.setItem("info",str);
+    },
+
+    getBeMusicOn:function(){
+        return this._musicOn;
+    },
+    setBeMusicOn:function(beOn){
+        this._musicOn = beOn;
     }
 })
 

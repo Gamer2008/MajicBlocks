@@ -8,10 +8,12 @@ var StartLayer= cc.Layer.extend({
     _imgTitle : null,
     _btnStart : null,
     _btnMusic : null,
+    _imgMusic: null,
 
     ctor:function (){
         this._super();
         this.init();
+
     },
     //界面初始化，为控件变量赋值
     init:function (){
@@ -25,18 +27,36 @@ var StartLayer= cc.Layer.extend({
         this._imgTitle = GlobalFunction.getCocosWidget(root, "img_title");
         this._btnStart = GlobalFunction.getCocosWidget(root, "btn_start");
         this._btnStart.addTouchEventListener(this.onBtnStartEvent,this);
+        this._imgMusic = GlobalFunction.getCocosWidget(root, "img_music");
         this._btnMusic = GlobalFunction.getCocosWidget(root, "btn_music");
         this._btnMusic.addTouchEventListener(this.onMusicEvent,this);
 
+        this.setMusicBtnState();
+
     },
     onBtnStartEvent : function(sender, type){
+        MusicManager.PlayClick();
         if(type == ccui.Widget.TOUCH_ENDED){
             var tran = new cc.TransitionFade(1.2, new LevelSelectScene());
             cc.director.runScene(tran);
         }
     },
     onMusicEvent : function(sender, type){
+        MusicManager.PlayClick();
         if(type == ccui.Widget.TOUCH_ENDED){
+            UserInfo.getCurrentUser().setBeMusicOn(!UserInfo.getCurrentUser().getBeMusicOn());
+            this.setMusicBtnState();
+        }
+    },
+    setMusicBtnState:function(){
+        var beOn = UserInfo.getCurrentUser().getBeMusicOn();
+        if(!beOn){
+            this._imgMusic.loadTexture("ButtonMusic_mc_000.png",ccui.Widget.PLIST_TEXTURE);
+            MusicManager.playBg();
+        }
+        else{
+            this._imgMusic.loadTexture("ButtonMusic_mc_001.png",ccui.Widget.PLIST_TEXTURE);
+            MusicManager.stopBg();
         }
     },
     onEnter:function(){

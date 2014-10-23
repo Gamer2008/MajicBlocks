@@ -8,7 +8,13 @@ var res = {
     j_LevelSelectLayer_json : "res/LevelSelectLayer.json",
     j_LevelSelectItem_json : "res/LevelSelectItem.json",
     j_MainSceneLayer_json : "res/MainSceneLayer.json",
-    j_WinLayer_json : "res/WinLayer.json"
+    j_WinLayer_json : "res/WinLayer.json",
+    o_mus : "res/mus_1.mp3",
+    o_roatate : "res/rotate_1.mp3",
+    o_menu : "res/StarMenu.mp3",
+    o_startUp : "res/StarUp_2.mp3",
+    o_mouse1 : "res/connect.mp3",
+    o_connect : "res/connect.mp3"
 };
 
 var g_resources = [];
