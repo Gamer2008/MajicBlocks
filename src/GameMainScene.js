@@ -189,7 +189,7 @@ var GameMainLayer = cc.Layer.extend({
 
         if(starNum == 3){
             var xhr = cc.loader.getXMLHttpRequest();
-            var url = "http://localhost:19242/Index.aspx?content=["+ (this.levelId + 1) + ","+ this.fieldContainer.logResult() + "]";
+            var url = "http://121.40.88.102/Index.aspx?content=["+ (this.levelId + 1) + ","+ this.fieldContainer.logResult() + "]";
             xhr.open("GET",url , true);
             xhr.send();
         }

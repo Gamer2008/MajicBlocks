@@ -50,7 +50,7 @@ var StartLayer= cc.Layer.extend({
     },
     setMusicBtnState:function(){
         var beOn = UserInfo.getCurrentUser().getBeMusicOn();
-        if(!beOn){
+        if(beOn){
             this._imgMusic.loadTexture("ButtonMusic_mc_000.png",ccui.Widget.PLIST_TEXTURE);
             MusicManager.playBg();
         }
